@@ -72,7 +72,7 @@ how do I improve my web development skills, and how do I create websites like Am
 If I had a few more hours to work on this project, I would try to tackle the remaining optional features that are mentioned above.
 I would like to add a timer to the game so that the patterns continue to appear. 
 I would like to keep track of the number of correct guesses and incorrect guesses.
-When the timer runs out or the user makes three wrong guesses, the game is over.
+When the timer runs out or the user makes three incorrect guesses, the game is over.
 There will be a feature to track the highest score. Additionally, I would like the game to have multiple levels. 
 The higher the level, the more complicated the game will be.
 
