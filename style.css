@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  /*background-color: slategray;
+  color: white;*/
+}
+
+h1 {
+  /*font-style: italic;*/
+  text-align: center;
+  color: black;
+  font-family: verdana, arial, sans-serif;
+}
+
+p{
+  text-align: center;
+}
+
+button{
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+#gameButtonArea > button{
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden{
+  display: none;
+}
+
+#button1{
+  background: lightgreen;
+  background-image: url( 'https://www.serebii.net/swordshield/pokemon/001.png' );
+
+}
+
+#button2{
+  background: lightblue;
+  background-image: url( 'https://www.serebii.net/swordshield/pokemon/007.png' );
+}
+
+#button3{
+  background: pink;
+  background-image: url('https://images.gameinfo.io/pokemon/256/113-00.png');
+}
+
+#button4{
+  background: lightyellow;
+  background-image: url('https://www.serebii.net/swordshield/pokemon/004.png');
+}
+
+#button5{
+  background: white;
+  background-image: url('https://www.serebii.net/swordshield/pokemon/175.png');
+}
+
+#button1:active, #button1.lit{
+  background-image: url( 'https://cdn.bulbagarden.net/upload/thumb/5/52/Ivysaur_SSBU.png/200px-Ivysaur_SSBU.png' );
+}
+
+#button2:active, #button2.lit{
+  background-image: url( 'https://www.serebii.net/swordshield/pokemon/008.png' );
+}
+
+#button3:active, #button3.lit{
+  background-image: url('https://images.gameinfo.io/pokemon/256/242-00.png');
+}
+
+#button4:active, #button4.lit{
+  background-image: url('https://img.rankedboost.com/wp-content/plugins/pokemon-sword-shield/assets/pokemon-images-regular/Charmeleon.png');
+}
+
+#button5:active, #button5.lit{
+  background-image: url('https://pokestop.io/img/pokemon/togetic-256x256.png');
+}
